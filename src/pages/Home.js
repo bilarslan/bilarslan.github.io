@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import Card from '../components/Card';
 
-const APIURL = 'https://api.github.com/users/YOUR_GITHUB_USERNAME';
+const APIURL = 'https://api.github.com/users/bilarslan';
 
 function Home() {
 
@@ -13,7 +13,7 @@ function Home() {
     const extraData = {
         showRepoStatus: true,
         email: null, //'YOUR_EMAIL@ADDRESS',
-        linkedin_url: null, //'https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/',
+        linkedin_url: 'https://www.linkedin.com/in/bilarslan/',
     };
 
     useEffect(() => {
